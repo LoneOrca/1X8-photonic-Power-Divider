@@ -28,13 +28,11 @@ The divider is built using three stages of 1x2 MMIs:
 
 ### **Repository Contents**
 
-* **`Power_Divider_1x8.py`**: The Python script containing the circuit logic, component placement, and routing specifications.
-
+* **`MMI_HW_3.py`**: The Python script containing the circuit logic, component placement, and routing specifications.
 
 * **`Power_Divider_1x8.gds`**: The geometric layout file representing the physical design of the photonic chip.
 
-
-* **`Simulation_Results.pdf`**: A summary of the scattering parameter (S-parameter) analysis.
+* **`EE-590-sn620094-assignment 3.pdf`**: A summary of the scattering parameter (S-parameter) analysis.
 
 ---
 
@@ -44,8 +42,7 @@ The device performance was verified through S-parameter simulations in a PyCharm
 
 * **Transmission**: The simulation shows uniform power distribution across all eight output ports (approximately **-9 dB to -10 dB** per port, accounting for ideal splitting and minor losses).
 
-
-* **Reflection**: The input reflection (S11) remains consistently low across the 1.5 $\mu$m to 1.6 $\mu$m wavelength range, indicating an efficient, well-matched design.
+* **Reflection**: The input reflection (S11) remains consistently low across the $1.5\ \mu m$ to $1.6\ \mu m$ wavelength range, indicating an efficient, well-matched design.
 
 ---
 
@@ -55,8 +52,7 @@ The device performance was verified through S-parameter simulations in a PyCharm
 
 2. **Execution**: Run the Python script to generate the layout and view the circuit visualization.
 
-python Power_Divider_1x8.py
-
+MMI_HW_3.py
 
 3. **Output**: The script will generate a `.gds` file and display the transmission/reflection plots.
 
